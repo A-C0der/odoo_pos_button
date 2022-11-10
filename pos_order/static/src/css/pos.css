@@ -1,0 +1,35 @@
+.ticket-button:hover {
+    background: rgb(104,69,95);
+    cursor: pointer;
+}
+
+.ticket-button .with-badge {
+    margin-right: 0.7em;
+    font-size: larger;
+    display:none;
+}
+
+[badge] {
+    position: relative;
+    padding-top:-20px;
+}
+
+[badge]:after {
+    background: rgb(112, 110, 110);
+    border-radius: 50%;
+    color: #fff;
+    content: attr(badge);
+    font-size: 18px;
+    width: 50px;
+    height: 30px;
+    padding: 2px;
+    position: absolute;
+    text-align: center;
+    left: 0.6em; 
+    top: 0.1em;
+
+   
+}
+.mit_order{
+    margin-left:30px;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="OrderLineAdd" owl="1">
+        <div class="control-button " t-att-badge="count" t-on-click="trigger('create-new-order')">
+           
+          <div class="mit_order">  New Order
+        </div>
+        </div>
+    </t>
+
+</templates>
+
+
